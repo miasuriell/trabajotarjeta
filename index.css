@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ededed;
+    padding: 4.6%;
+}
+.tarjeta{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 320px;
+    height: 530px;
+    box-shadow: 3px 15px 20px 1px rgb(0 0 0 / 20%);
+    background-color: white;
+}
+
+
+
+picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    
+}
+
+picture>img{
+    width: 100%;
+    height: 300px;
+}
+
+.imagen-tenis{
+    width: 70%;
+    height: 200px;
+}
+
+
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.Titulo-tarjeta{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.Descripcion{
+    font-size: 12px;
+    padding: 10px 80px;
+}
+
+
+button{
+    border: none;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.tarjeta1-boton{
+    background-color: #72695b ;
+}
+
+.tarjeta2-boton{
+    background-color: #6AA7B4;
+}
+
+.tarjeta3-boton{
+    background-color: black ;
+}
+
+
+.precio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.precio>span{
+   
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.tarjeta1>.informacion>.precio{
+    color: #72695b;
+}
+
+.tarjeta2>.informacion>.precio{
+    color:#6AA7B4;
+}
+
+
+
+.estrellas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 11px;
+    color: rgb(255, 230, 0);
+    margin-bottom: 10px;
+}
+
+.estrella4, .estrella5{
+  color: gray;
+}
+
+.IMAGEN1{
+    width: 750PX;
+    height: 200PX;
+  }
+  
